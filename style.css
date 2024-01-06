@@ -1,0 +1,26 @@
+
+/* Nav-item font color */
+.fontColor {
+    color: #9F3F24;
+    font-weight: 700;
+}
+
+/* jumbotron head font color */
+.fontColor1{
+    color: #333121;
+    font-weight: 700;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+/* jumbotron description font color */
+.fontColor2{
+    color: #333121;
+    font-family: cursive;
+    
+}
+
+
+.btnColor {
+    background-color: #9F3F24;
+    color: white;
+}
