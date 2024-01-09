@@ -1,4 +1,3 @@
-
 /* Nav-item font color */
 .fontColor {
     color: #9F3F24;
@@ -6,17 +5,17 @@
 }
 
 /* jumbotron head font color */
-.fontColor1{
+.fontColor1 {
     color: #333121;
     font-weight: 700;
     font-family: 'Courier New', Courier, monospace;
 }
 
 /* jumbotron description font color */
-.fontColor2{
+.fontColor2 {
     color: #333121;
     font-family: cursive;
-    
+
 }
 
 
@@ -24,3 +23,49 @@
     background-color: #9F3F24;
     color: white;
 }
+
+#package-tile,
+#specials-tile,
+#map-tile {
+    height: 250px;
+    width: 100%;
+    margin-bottom: 15px;
+    position: relative;
+    border: 2px solid #3F0C1F;
+    overflow: hidden;
+}
+
+#package-tile:hover,
+#specials-tile:hover,
+#map-tile:hover {
+    box-shadow: 0 1px 5px 1px #cccccc;
+}
+
+#package-tile {
+    background: url('package.jpg') no-repeat;
+    background-position: center;
+}
+
+#specials-tile {
+    background: url('specials.jpg') no-repeat;
+    background-position: center;
+}
+
+#package-tile span,
+#specials-tile span,
+#map-tile span {
+
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    width: 100%;
+    text-align: center;
+    font-size: 1.6em;
+    text-transform: uppercase;
+    background-color: #000;
+    color: #fff;
+    opacity: .8;
+
+}
+
+
